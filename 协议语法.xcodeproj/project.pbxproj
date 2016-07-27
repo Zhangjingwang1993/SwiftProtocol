@@ -425,6 +425,7 @@
 				INFOPLIST_FILE = "协议语法/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE_VERSION";
 				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "协议语法/协议语法-Bridging-Header.h";
@@ -440,6 +441,7 @@
 				INFOPLIST_FILE = "协议语法/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE_VERSION";
 				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "协议语法/协议语法-Bridging-Header.h";
@@ -513,6 +515,7 @@
 				BC8B3DAA1CAE1816003E7A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8B3DAB1CAE1816003E7A2C /* Build configuration list for PBXNativeTarget "协议语法Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +524,7 @@
 				BC8B3DAD1CAE1816003E7A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8B3DAE1CAE1816003E7A2C /* Build configuration list for PBXNativeTarget "协议语法UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +533,7 @@
 				BC8B3DB01CAE1816003E7A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

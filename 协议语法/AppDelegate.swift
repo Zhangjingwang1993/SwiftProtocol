@@ -16,9 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let ocView = OC_ViewController()
-        self.window?.rootViewController = ocView
+//        let ocView = OC_ViewController()
+//        self.window?.rootViewController = ocView
         
+
         
         return true
     }
