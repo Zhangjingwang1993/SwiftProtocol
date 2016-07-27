@@ -47,6 +47,26 @@ class ViewController: UIViewController, ModeViewControlDelegate{
         self.view.addSubview(label)
         
         
+//        let cls = ClassA.init()
+//        print(cls.str)
+        // Swift中, 我们输出使用 \ 作为占位符, 不用在记忆什么类型对应什么格式的占位符
+        let a = 3
+        let b = 1.23457
+        let c = "Hello World"
+        print("int:\(a) double:\(b) string:\(c)")
+        // Swift中
+        let formatb = String(format:"%.2f",b)
+        print("double:\(formatb)")
+        
+        // 当然，每次这么写的话也很麻烦。如果我们需要大量使用类似的字符串格式化功能的话，我们最好为 Double 写一个扩展：
+
+        #if true
+            print("true")
+        #endif
+        
+        #if FREE_VERSION
+            
+        #endif
     }
     // 实现协议中的方法
     func changeLabelString(newString: String) {
@@ -58,10 +78,18 @@ class ViewController: UIViewController, ModeViewControlDelegate{
     {
         print("-------")
         let sec = SecViewController();
+//        let sec = OC_SecController();
         sec.delegate = self
         self.presentViewController(sec, animated: true) { () -> Void in
             
         }
+    }
+    class ClassA {
+        lazy var str: String = {
+            let str = "Hello"
+            print("只有首次访问输出")
+            return str
+        }()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

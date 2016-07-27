@@ -11,7 +11,6 @@ import Foundation
 protocol ModeViewControlDelegate{
     // 协议方法
     func changeLabelString(newString: String)
-    
 }
 /**
  *  在协议中定义类方法的时候，总是使用 `static` 关键字作为前缀。当类类型采纳协议时，除了 `static` 关键字，还可以使用 `class`
@@ -21,7 +20,6 @@ protocol ModeViewControlDelegate{
 protocol SomeProtocol {
     // 这里是协议的定义部分
     static func someTypeProperty()
-    
 }
 // 下面定义了一个只包含协议方法的协议
 protocol RandomNumberGenerator {

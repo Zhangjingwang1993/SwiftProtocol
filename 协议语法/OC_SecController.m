@@ -30,6 +30,8 @@
         [self.delegate sendValueString:@"i am a String"];
     }
     [self dismissModalViewControllerAnimated:YES];
+    
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
